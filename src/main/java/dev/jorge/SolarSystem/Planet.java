@@ -25,6 +25,16 @@ public class Planet {
         this.distanceToSun = distanceToSun;
         this.type = type;
     }
+    void imprimir() {
+System.out.println("Nombre del planeta = "+ name);
+System.out.println("Cantidad de satélites = " + satellites);
+System.out.println("Masa del planeta = " + mass);
+System.out.println("Volumen del planeta = " + volume);
+System.out.println("Diámetro del planeta = " + diameter);
+System.out.println("Distancia al sol = " + distanceToSun);
+System.out.println("Tipo de planeta = " + type);
+System.out.println("Es observable = " + esObservable);
+}
 
     
 
