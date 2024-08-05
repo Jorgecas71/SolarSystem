@@ -37,7 +37,17 @@ System.out.println("Es observable = " + esObservable);
 }
 
     
+double calcularDensidad() {
+    return mass / volume;
+}
 
+boolean esPlanetaExterior() {
+    float límite = (float) (149597870 * 3.4);
 
-
+    if (distanceToSun > límite) {
+        return true;
+    } else {
+        return false;
+    }
+}
 }
