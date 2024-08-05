@@ -25,6 +25,7 @@ public class Planet {
         this.distanceToSun = distanceToSun;
         this.type = type;
     }
+    
     void imprimir() {
 System.out.println("Nombre del planeta = "+ name);
 System.out.println("Cantidad de satélites = " + satellites);
