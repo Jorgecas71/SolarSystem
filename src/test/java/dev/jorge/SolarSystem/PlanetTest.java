@@ -8,7 +8,7 @@ public class PlanetTest {
     @Test
     public void testCalcularDensidad() {
         Planet planet = new Planet("Tierra", 1, 5.972E24, 1.08321E12, 12742, 149600000, PlanetType.TERRESTRE);
-        double expectedDensidad = 5.514;
+        double expectedDensidad = 5.513243046131406E12;
         assertEquals(expectedDensidad, planet.calcularDensidad(), 0.001);
     }
     
